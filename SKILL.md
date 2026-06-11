@@ -334,6 +334,7 @@ python scripts/wechat_draft.py create-draft "output/<author>/<aweme_id>" --html 
 - Write `wechat-draft-preview.html` and `wechat-draft-result.json` in the same item directory.
 - Default to draft-only. Use `--publish` only after explicit user confirmation.
 - If WeChat returns an IP whitelist error, report it without printing secrets.
+- Never include WeChat admin/edit URLs in public docs or generated examples; those URLs often contain session `token` values.
 
 ## Outputs
 

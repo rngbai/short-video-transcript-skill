@@ -176,6 +176,26 @@ WECHAT_DEFAULT_AUTHOR=...
 
 更完整的公众号环境说明见 `references/wechat-setup.md`。
 
+## 示例效果
+
+我们用一条“大冰/冰言冰语”的抖音视频跑通过完整链路：采集视频、转写音频、按对话整理 `dialogue.md`、抽取关键帧、渲染暖光卡片 HTML，并同步成微信公众号草稿。
+
+示例标题：
+
+```text
+一一大哥的故事：德高为兄
+```
+
+最终产物形态：
+
+- `dialogue.md`：适合继续编辑和沉淀的内容母版。
+- `dialogue-warm-card.html`：适合公众号预览、复制和草稿上传的原生 HTML。
+- `media/frames/dialogue_*.jpg`：从视频抽取的关键画面。
+- `wechat-draft-preview.html`：提交给公众号草稿接口前的本地预览正文。
+- `wechat-draft-result.json`：草稿创建/更新结果，不包含密钥。
+
+更完整的脱敏案例说明见 `references/example-dabing.md`。注意不要把微信公众号后台编辑链接放进公开仓库；这类链接通常包含 `token`，只适合自己本机临时打开。
+
 ## 输出
 
 默认写入：
