@@ -8,6 +8,29 @@
 
 先看效果：[`图文说明 / Showcase`](references/showcase.md) | [`大冰案例`](references/example-dabing.md) | [`公众号配置`](references/wechat-setup.md)
 
+## Agent 快速开始
+
+让 Codex、OpenClaw、Trae、WorkBuddy 等 Agent 先把仓库下载到本地工作区：
+
+```powershell
+git clone https://github.com/rngbai/short-video-transcript-skill.git
+cd short-video-transcript-skill
+pip install -r scripts/requirements.txt
+ffmpeg -version
+```
+
+然后直接把这段话发给 Agent：
+
+```text
+请先阅读本仓库的 SKILL.md，然后把下面这个短视频链接转成 Markdown 文档。
+默认使用 scripts/short_video_collect.py，平台自动识别，输出到 output。
+如果适合公众号阅读，请继续整理 article.md 或 dialogue.md，并渲染暖光卡片 HTML。
+
+<把抖音链接或分享文案贴在这里>
+```
+
+Agent 需要具备读取文件和执行本地命令的能力。v1 已支持抖音；快手、小红书等平台目前是扩展规划，暂未实现。
+
 ## 功能
 
 - 输入短视频分享文本、短链、完整链接；v1 已支持抖音视频链接。
