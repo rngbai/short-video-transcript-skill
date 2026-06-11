@@ -4,6 +4,10 @@
 
 当前 v1 已支持国内抖音，解析来源默认使用 BugPk API。项目名和入口已为快手、小红书、B 站、TikTok 等平台预留扩展位，但这些平台尚未实现，文档不会假装已经支持。
 
+![短视频到公众号图文工作流](references/assets/workflow.svg)
+
+先看效果：[`图文说明 / Showcase`](references/showcase.md) | [`大冰案例`](references/example-dabing.md) | [`公众号配置`](references/wechat-setup.md)
+
 ## 功能
 
 - 输入短视频分享文本、短链、完整链接；v1 已支持抖音视频链接。

@@ -259,6 +259,7 @@ For two-person连麦/访谈 videos, write `dialogue.md`:
 - Do not append a raw "适合切片的金句" list to the public article. If quotes are useful, weave them into `写在最后` as a short reader-facing ending.
 - Keep source URLs, transcript caveats, and correction notes in `metadata.json`, `copy.zh.md`, or a private `publish-notes.md`, not in the WeChat body.
 - Insert images at meaningful section boundaries. Use frames from the downloaded video only by default.
+- If source frames are not enough, the agent may use image2/image generation for covers, section headers, diagrams, or concept illustrations. Mark them as AI-generated in private notes and never present them as video screenshots.
 - Use `###` for section-level subheadings; the warm-card renderer supports H3 as orange left-bar subheadings.
 - Keep paragraphs readable for mobile. Do not place every sentence on its own line.
 - End with a concise AI-written summary that stays faithful to the video and leaves the reader with one clear takeaway.
