@@ -207,6 +207,8 @@ WECHAT_DEFAULT_AUTHOR=...
 
 我们用一条“大冰/冰言冰语”的抖音视频跑通过完整链路：采集视频、转写音频、按对话整理 `dialogue.md`、抽取关键帧、渲染暖光卡片 HTML，并同步成微信公众号草稿。
 
+![大冰案例图文稿效果示意](references/assets/dabing-example.svg)
+
 示例标题：
 
 ```text

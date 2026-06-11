@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">大冰案例图文稿效果示意</title>
+  <desc id="desc">展示短视频转写后生成 Markdown 内容母版、暖光卡片 HTML、关键帧和公众号草稿的效果示意。</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffaf5"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#9a3412" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#f3e8df" stroke-width="1"/>
+    </pattern>
+    <style>
+      .h1{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:34px;font-weight:850;fill:#1f2937}
+      .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px;fill:#6b7280}
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;font-weight:750;fill:#9a3412}
+      .card{fill:#fff;stroke:#fed7aa;stroke-width:1.4;filter:url(#shadow)}
+      .phoneText{font-family:Inter,Segoe UI,Arial,'Microsoft YaHei',sans-serif;fill:#273248}
+      .phoneH1{font-size:25px;font-weight:850;fill:#dc6b4d}
+      .phoneH2{font-size:19px;font-weight:800;fill:#dc6b4d}
+      .phoneP{font-size:14px;line-height:1.6}
+      .mono{font-family:Consolas,Menlo,monospace;font-size:14px;fill:#374151}
+      .muted{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#6b7280}
+      .file{fill:#ffffff;stroke:#e5e7eb;stroke-width:1.2}
+      .fileTitle{font-family:Consolas,Menlo,monospace;font-size:14px;font-weight:700;fill:#111827}
+      .fileText{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#6b7280}
+      .accent{fill:#fb923c}
+      .ok{fill:#16a34a}
+    </style>
+  </defs>
+  <rect width="1180" height="720" rx="28" fill="url(#page)"/>
+  <text x="54" y="62" class="h1">从大冰短视频到公众号图文稿</text>
+  <text x="54" y="93" class="sub">真实跑通过的脱敏案例：视频采集、音频转写、对话整理、关键帧、暖光 HTML、公众号草稿</text>
+
+  <g transform="translate(56,132)">
+    <rect width="390" height="520" rx="32" fill="#111827" filter="url(#shadow)"/>
+    <rect x="18" y="18" width="354" height="484" rx="24" fill="url(#phone)"/>
+    <rect x="18" y="18" width="354" height="484" rx="24" fill="url(#grid)" opacity="0.72"/>
+    <rect x="92" y="34" width="206" height="18" rx="9" fill="#1f2937" opacity="0.14"/>
+    <g transform="translate(44,74)">
+      <rect width="302" height="86" rx="14" fill="#fff" stroke="#f5d0c2"/>
+      <text x="20" y="34" class="phoneText phoneH1">一一大哥的故事：德高为兄</text>
+      <text x="20" y="63" class="phoneText phoneP">有些孩子不是因为年纪大才像哥哥，</text>
+      <text x="20" y="82" class="phoneText phoneP">而是在该站出来的时候守住常识。</text>
+    </g>
+    <g transform="translate(44,184)">
+      <rect width="302" height="84" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+      <text x="20" y="34" class="phoneText phoneH2">▶ 一句话重点</text>
+      <text x="20" y="62" class="phoneText phoneP">一个孩子做了勇敢、正义的事，</text>
+      <text x="20" y="80" class="phoneText phoneP">就应该被认真认可和保护。</text>
+    </g>
+    <g transform="translate(44,292)">
+      <rect width="302" height="130" rx="14" fill="#fff" stroke="#f5d0c2"/>
+      <text x="20" y="34" class="phoneText phoneH2">▶ 对话整理</text>
+      <text x="20" y="64" class="phoneText phoneP">大冰：孩子做了好事，不应该被委屈。</text>
+      <text x="20" y="90" class="phoneText phoneP">连麦观众：这件事最该被看见。</text>
+      <text x="20" y="116" class="phoneText phoneP">写在最后：德高为兄，是一种担当。</text>
+    </g>
+    <text x="74" y="472" class="muted">公众号暖光卡片 HTML 预览示意</text>
+  </g>
+
+  <g transform="translate(500,132)">
+    <rect class="card" width="620" height="520" rx="24"/>
+    <text x="34" y="48" class="h1" style="font-size:26px">生成了什么？</text>
+    <text x="34" y="78" class="sub">不是只给一段逐字稿，而是一组可以继续发布和沉淀的文件。</text>
+
+    <g transform="translate(34,112)">
+      <rect class="file" width="260" height="76" rx="14"/>
+      <circle cx="30" cy="38" r="13" class="accent"/>
+      <text x="52" y="33" class="fileTitle">dialogue.md</text>
+      <text x="52" y="56" class="fileText">内容母版，可继续编辑和入库</text>
+    </g>
+    <g transform="translate(326,112)">
+      <rect class="file" width="260" height="76" rx="14"/>
+      <circle cx="30" cy="38" r="13" class="accent"/>
+      <text x="52" y="33" class="fileTitle">dialogue-warm-card.html</text>
+      <text x="52" y="56" class="fileText">公众号视觉母版，可预览/复制</text>
+    </g>
+    <g transform="translate(34,212)">
+      <rect class="file" width="260" height="76" rx="14"/>
+      <circle cx="30" cy="38" r="13" class="accent"/>
+      <text x="52" y="33" class="fileTitle">media/frames/*.jpg</text>
+      <text x="52" y="56" class="fileText">视频关键帧，增强图文阅读感</text>
+    </g>
+    <g transform="translate(326,212)">
+      <rect class="file" width="260" height="76" rx="14"/>
+      <circle cx="30" cy="38" r="13" class="accent"/>
+      <text x="52" y="33" class="fileTitle">wechat-draft-preview.html</text>
+      <text x="52" y="56" class="fileText">上传公众号前的本地预览正文</text>
+    </g>
+    <g transform="translate(34,312)">
+      <rect class="file" width="552" height="82" rx="14"/>
+      <circle cx="30" cy="42" r="13" class="ok"/>
+      <text x="52" y="36" class="fileTitle">wechat-draft-result.json</text>
+      <text x="52" y="60" class="fileText">记录草稿创建/更新结果，不包含 AppSecret、access_token 或后台 token</text>
+    </g>
+
+    <g transform="translate(34,430)">
+      <rect width="552" height="56" rx="16" fill="#fff7ed" stroke="#fdba74"/>
+      <text x="22" y="24" class="label">安全说明</text>
+      <text x="22" y="44" class="fileText">GitHub 只展示脱敏效果图；微信公众号后台编辑链接不会公开。</text>
+    </g>
+  </g>
+</svg>

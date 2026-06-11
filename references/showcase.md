@@ -36,6 +36,8 @@ flowchart LR
 
 我们用“大冰/冰言冰语”的一条视频跑通过完整链路，最终整理成公众号图文稿。
 
+![大冰案例图文稿效果示意](assets/dabing-example.svg)
+
 示例标题：
 
 ```text
